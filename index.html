@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <label class="heading">Image Editor</label>
+    <div class="frame">
+        <img class="back" src="https://images.pexels.com/photos/698275/pexels-photo-698275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+                <img class="image" src="background.png" />
+    </div>
+    <div class="options">
+        <label class="headingoptions">Options</label>
+        <br>
+        <div class="option">Change background: <input type="text" class="imagelink" placeholder="Input Image Link Here and press ENTER" >
+        </div> 
+        <br>
+       <div class="option"> Background Blur: <input type="range" min="0"  max="15" value="0" oninput="changeb(this.value)" onchange="changeb(this.value)" class="imageblur rng " />
+        </div>
+        <br>
+        <div class="option">Scale the man: <input type="range"  min="0.10"  step="0.05" max="1.5" value="0.4" oninput="changes(this.value)" onchange="changes(this.value)" class="scalet rng"/>
+        </div>
+        <br>
+        <div class="option">Position the man  - X:<input type="range"  min="-30" max="70" value="2" oninput="changex(this.value)" onchange="changex(this.value)"  class="posx rng" />
+        </div>
+        <br>
+        <div class="option">Position the man -Y:<input type="range"  min="-50"  max="50" value="3" oninput="changey(this.value)" onchange="changey(this.value)"  class="posy rng"  />
+        </div>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
