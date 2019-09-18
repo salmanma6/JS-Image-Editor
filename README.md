@@ -3,12 +3,12 @@ This image editor has options to change background-blur , scale,Position -X and 
 You can scale,position-x ,position-y of image(man)<br>
 You can change background image but giving input the change backgroud section<br>
 You can add blur to the background image<br>
-## Below is start screenshot.
+<h4> Below is start screenshot.</h4>
 <br>
 <br>
 <img src="screenshot.png" />
 <br>
-## After edit
+<h4> After edit</h4>
 <br>
 <img src="edit.png" />
 
